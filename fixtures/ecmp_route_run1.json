@@ -1,0 +1,98 @@
+{
+  "target": "1.1.1.1",
+  "target_ip": "1.1.1.1",
+  "timestamp": "2026-10-23T10:15:00Z",
+  "protocol": "icmp",
+  "flow_id": 1,
+  "completed": true,
+  "hops": [
+    {
+      "ttl": 1,
+      "ip": "192.0.2.1",
+      "hostname": "gateway.local.net",
+      "asn": null,
+      "as_name": null,
+      "rtt_ms": [1.82, 1.91, 1.85],
+      "loss_percent": 0.0,
+      "jitter_ms": 0.05,
+      "responding": true
+    },
+    {
+      "ttl": 2,
+      "ip": "198.51.100.1",
+      "hostname": "edge01.isp.net",
+      "asn": 64496,
+      "as_name": "EDGE-TRANSIT",
+      "rtt_ms": [4.12, 4.35, 4.21],
+      "loss_percent": 0.0,
+      "jitter_ms": 0.08,
+      "responding": true
+    },
+    {
+      "ttl": 3,
+      "ip": "203.0.113.10",
+      "hostname": "be2871.ccr41.lon13.atlas.cogentco.com",
+      "asn": 174,
+      "as_name": "COGENT-CORE",
+      "rtt_ms": [9.25, 9.54, 9.38],
+      "loss_percent": 0.0,
+      "jitter_ms": 0.12,
+      "responding": true
+    },
+    {
+      "ttl": 4,
+      "ip": "154.54.40.105",
+      "hostname": "be2868.ccr41.ams03.atlas.cogentco.com",
+      "asn": 174,
+      "as_name": "COGENT-CORE",
+      "rtt_ms": [14.02, 14.28, 14.15],
+      "loss_percent": 0.0,
+      "jitter_ms": 0.10,
+      "responding": true
+    },
+    {
+      "ttl": 5,
+      "ip": "130.117.50.82",
+      "hostname": "cloudflare.ams03.atlas.cogentco.com",
+      "asn": 174,
+      "as_name": "COGENT-CORE",
+      "rtt_ms": [18.64, 18.92, 18.75],
+      "loss_percent": 0.0,
+      "jitter_ms": 0.15,
+      "responding": true
+    },
+    {
+      "ttl": 6,
+      "ip": "172.70.44.1",
+      "hostname": "172.70.44.1",
+      "asn": 13335,
+      "as_name": "CLOUDFLARENET",
+      "rtt_ms": [21.20, 21.55, 21.32],
+      "loss_percent": 0.0,
+      "jitter_ms": 0.11,
+      "responding": true
+    },
+    {
+      "ttl": 7,
+      "ip": "162.158.84.2",
+      "hostname": "162.158.84.2",
+      "asn": 13335,
+      "as_name": "CLOUDFLARENET",
+      "rtt_ms": [22.40, 22.81, 22.65],
+      "loss_percent": 0.0,
+      "jitter_ms": 0.14,
+      "responding": true
+    },
+    {
+      "ttl": 8,
+      "ip": "1.1.1.1",
+      "hostname": "one.one.one.one",
+      "asn": 13335,
+      "as_name": "CLOUDFLARENET",
+      "rtt_ms": [23.10, 23.45, 23.28],
+      "loss_percent": 0.0,
+      "jitter_ms": 0.09,
+      "responding": true
+    }
+  ]
+}
