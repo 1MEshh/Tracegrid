@@ -8,6 +8,10 @@ authors = ["1MEshh <152591660+1MEshh@users.noreply.github.com>"]
 repository = "https://github.com/1MEshh/Tracegrid"
 readme = "README.md"
 
+[[bin]]
+name = "tracegrid"
+path = "src/main.rs"
+
 [lib]
 name = "tracegrid"
 path = "src/lib.rs"
